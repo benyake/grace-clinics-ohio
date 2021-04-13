@@ -13,7 +13,7 @@ sections:
         subtitle: Grace Clinics of Ohio rely on the generosity of over 130 doctors, nurses, specialists, pharmacists, non-medical volunteers, and the support of the community to accomplish its mission.
         content: >-
           
-        image: images/delaware/volunteers.jpg
+        image: images/volunteers.jpg
         image_alt: Waiting Room
         media_position: right
         media_width: thirty-three
