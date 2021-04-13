@@ -1,0 +1,113 @@
+title: 'Grace Clinics of Ohio, Inc.'
+baseURL: /
+params:
+  #layout_type: boxed
+  style: classic
+  favicon: images/grace-clinics-logo.png
+  palette: brown
+  mode: light
+  base_font: serif
+  header:
+    title: Grace Clinics of Ohio
+    logo: images/grace-clinics-logo.png
+    logo_alt: Grace Clinics of Ohio logo
+    has_primary_nav: true
+    primary_nav_links:
+      - label: About
+        url: /about
+        style: link
+      - label: Patients
+        url: /patients
+        style: link
+      - label: News
+        url: /blog
+        style: link
+      - label: Get Involved
+        url: /get-involved
+        style: link
+    has_secondary_nav: true
+    secondary_nav_links:
+      - label: Contact
+        url: /contact
+        style: link
+      - label: Donate
+        url: 'https://graceclinicweb.networkforgood.com/projects/42055-neighbors-in-need'
+        style: primary
+    has_anncmnt: true
+    anncmnt_content: >-
+      For information about getting the COVID vaccine **[Click here](/blog/covid-vaccine/)**
+    anncmnt_align: left
+    anncmnt_is_home_only: true
+    anncmnt_has_close: true
+    anncmnt_id: new-anncmnt
+  footer:
+    logo: images/grace-clinics-logo.png
+    logo_alt: Grace Clinics of Ohio logo
+    has_primary_nav: true
+    primary_nav_title: Ministry
+    primary_nav_links:
+      - label: About
+        url: /about
+        style: link
+      - label: Patients
+        url: /patients
+        style: link
+      - label: Get Involved
+        url: /get-involved
+        style: link
+      - label: Contact
+        url: /contact
+        style: link
+    has_secondary_nav: true
+    secondary_nav_title: Locations
+    secondary_nav_links:
+      - label: Delaware
+        url: /delaware
+        style: link
+      - label: Hardin
+        url: /hardin
+        style: link
+    has_tertiary_nav: true
+    tertiary_nav_title: Blog
+    tertiary_nav_links:
+      - label: News
+        url: /blog/category/news
+        style: link
+      - label: Events
+        url: /blog/category/events
+        style: link
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: 'https://twitter.com/'
+        style: link
+        has_icon: true
+        icon: twitter
+        icon_position: center
+        new_window: true
+      - label: Facebook
+        url: 'https://www.facebook.com/'
+        style: link
+        has_icon: true
+        icon: facebook
+        icon_position: center
+        new_window: true
+      - label: YouTube
+        url: 'https://www.youtube.com/'
+        style: link
+        has_icon: true
+        icon: youtube
+        icon_position: center
+        new_window: true
+    content: '&copy; 2021 Grace Clinics of Ohio, Inc. All rights reserved.'
+  domain: 'https://grace-clinics-ohio-7dd21.netlify.app'
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
