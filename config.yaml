@@ -62,10 +62,13 @@ params:
     secondary_nav_title: Locations
     secondary_nav_links:
       - label: Delaware
-        url: /delaware
+        url: /locations/delaware
         style: link
       - label: Hardin
-        url: /hardin
+        url: /locations/hardin
+        style: link
+      - label: Jackson
+        url: 'https://jacksoncountygraceclinic.com/'
         style: link
     has_tertiary_nav: true
     tertiary_nav_title: Blog
