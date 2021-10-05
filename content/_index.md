@@ -24,17 +24,13 @@ sections:
       - title: Grace Clinic Delaware
         subtitle: 40 S Franklin St, Delaware, OH 43015
         content: >-
-          **Hours:**<br/>
-          Monday: 9am - noon<br/>
-          Wednesday: 5:30pm - 8pm<br/><br/>
-          **Phone:**<br/>
-          [740-816-6955](tel:+17408166955)
+
         actions:
           - label: Get Directions
             url: 'https://goo.gl/maps/mBFVKYPuRN6TVhLv8'
             style: primary
           - label: Learn More
-            url: /delaware
+            url: /locations/delaware
             style: secondary
         image: images/delaware/delaware-clinic-building.jpg
         image_alt: Delaware clinic image
@@ -43,20 +39,32 @@ sections:
       - title: Hardin Clinic
         subtitle: 2052 Cleveland Ave, Columbus, OH 43211
         content: >-
-          **Hours:**<br/>
-          Saturday: 9am - noon<br/><br/>
-          **Phone:**<br/>
-          [614-301-3375](tel:+16143013375)
+
         actions:
           - label: Get Directions
             url: 'https://goo.gl/maps/VNEJYenknL3GhJ9N9'
             style: primary
           - label: Learn More
-            url: /hardin
+            url: /locations/hardin
             style: secondary
         image: images/hardin/hardin-clinic-building.png
         image_alt: Hardin clinic image
         media_position: left
+        media_width: fifty
+      - title: Grace Clinic of Jackson County
+        subtitle: 22 S Ohio Ave, Wellston, OH 45692
+        content: >-
+
+        actions:
+          - label: Get Directions
+            url: 'https://goo.gl/maps/FEAWFhwmJkz2Ucrp6'
+            style: primary
+          - label: Learn More
+            url: 'https://jacksoncountygraceclinic.com/'
+            style: secondary
+        image: images/jackson/jackson-clinic-building.jpg
+        image_alt: Jackson clinic image
+        media_position: right
         media_width: fifty
     feature_padding_vert: large
     align: center
@@ -81,7 +89,6 @@ sections:
         content: |-
           Our clinics offer specialist visits **by appointment only**. To schedule an appointment, please contact your local office. Our current specialists are:
           * Vision
-          * Dental
           * Chiropractic
           * Nutrition
           * Physical Therapy
