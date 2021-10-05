@@ -26,47 +26,7 @@ sections:
         media_position: left
         media_width: thirty-three
   - type: grid_section
-    title: Our Locations
-    grid_items:
-      - title: Delaware
-        content: >-
-          [40 S Franklin St, Delaware, OH 43015](https://goo.gl/maps/mBFVKYPuRN6TVhLv8)<br/>
-          [740-816-6955](tel:+17408166955)<br/>
-          [info@graceclinicsoh.org](mailto:info@graceclinicsoh.org)
-        content_align: left
-        actions:
-          - label: Learn More
-            url: /delaware
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-        actions_width: auto
-      - title: Hardin
-        content: >-
-          [2052 Cleveland Ave, Columbus, OH 43211](https://goo.gl/maps/VNEJYenknL3GhJ9N9)<br/>
-          [614-301-3375](tel:+16143013375)<br/>
-          [kim@graceclinicsoh.org](mailto:kim@graceclinicsoh.org)
-        content_align: left
-        actions:
-          - label: Learn More
-            url: /hardin
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-    grid_cols: two
-    grid_gap_horiz: large
-    grid_gap_vert: large
-    enable_cards: true
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-  - type: grid_section
-    title: Staff
+    title: Our Staff
     subtitle: 
     grid_items:
       - title: Melissa Mason
