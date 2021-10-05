@@ -78,13 +78,6 @@ params:
         style: link
     has_social: true
     social_links:
-      - label: Twitter
-        url: 'https://twitter.com/'
-        style: link
-        has_icon: true
-        icon: twitter
-        icon_position: center
-        new_window: true
       - label: Facebook
         url: 'https://www.facebook.com/'
         style: link
@@ -92,11 +85,11 @@ params:
         icon: facebook
         icon_position: center
         new_window: true
-      - label: YouTube
-        url: 'https://www.youtube.com/'
+      - label: Instagram
+        url: 'https://www.instagram.com/'
         style: link
         has_icon: true
-        icon: youtube
+        icon: instagram
         icon_position: center
         new_window: true
     content: '&copy; 2021 Grace Clinics of Ohio, Inc. All rights reserved.'
